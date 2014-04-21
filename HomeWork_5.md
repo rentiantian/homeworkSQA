@@ -11,4 +11,4 @@ Formal methods are best described as the application of a fairly broad variety o
 
 Model checking is a very important technique in automatic verification. It is most often applied to hardware designs. For software, because of undecidability the approach cannot be fully algorithmic, typically it may fail to prove or disprove a given property.
 
-Formally, the problem can be stated as follows: given a desired property, expressed as a temporal logic formula p, and a structure M with initial state s, decide if M,s \models p. If M is finite, as it is in hardware, model checking reduces to a graph search.
+Formally, the problem can be stated as follows: given a desired property, expressed as a temporal logic formula p, and a structure M with initial state s, decide if M,s|=p. If M is finite, as it is in hardware, model checking reduces to a graph search.
